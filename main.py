@@ -5,7 +5,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import os, sys, asyncio
 from utils import CallbackStartswith, database, user_states, keyboards, CallbackData
 
-token = "6648401622:AAE-_Dd3YXv3L2FqWrjkzOvfgChIxL7TEVk" #there is a bot token here for our program to work
+token = "" #there is a bot token here for our program to work
 
 bot = Bot(token=token, parse_mode="HTML", disable_web_page_preview=True)
 """
